@@ -1,4 +1,4 @@
-package io.github.alessandroscarlatti.palette1.ui;
+package io.github.alessandroscarlatti.palette1.ui.advanced;
 
 import io.github.alessandroscarlatti.palette1.domain.Palette;
 

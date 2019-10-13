@@ -1,6 +1,6 @@
 package io.github.alessandroscarlatti;
 
-import org.pushingpixels.substance.api.skin.SubstanceMistAquaLookAndFeel;
+//import org.pushingpixels.substance.api.skin.SubstanceMistAquaLookAndFeel;
 
 import javax.swing.*;
 import javax.swing.tree.*;
@@ -161,7 +161,7 @@ public class Test1 extends JFrame {
     public static void main(String args[]) throws Exception {
         SwingUtilities.invokeAndWait(() -> {
             try {
-                UIManager.setLookAndFeel(new SubstanceMistAquaLookAndFeel());
+//                UIManager.setLookAndFeel(new SubstanceMistAquaLookAndFeel());
                 JFrame frame = new Test1();
                 frame.addWindowListener(new WindowAdapter() {
                     public void windowClosing(WindowEvent e) {

@@ -1,4 +1,4 @@
-package io.github.alessandroscarlatti.palette1.ui;
+package io.github.alessandroscarlatti.palette1.ui.advanced;
 
 import io.github.alessandroscarlatti.palette1.domain.Palette;
 import io.github.alessandroscarlatti.palette1.domain.PaletteItemGroup;
@@ -10,12 +10,12 @@ import java.awt.*;
  * @author Alessandro Scarlatti
  * @since Saturday, 10/12/2019
  */
-public class PalettePanel extends JPanel {
+public class AdvancedPalettePanel extends JPanel {
 
     private GroupChooserTree groupChooserTree;
     private GroupViewerPanel groupViewerPanel;
 
-    public PalettePanel(Palette palette) {
+    public AdvancedPalettePanel(Palette palette) {
         BorderLayout borderLayout = new BorderLayout();
         setLayout(borderLayout);
 

@@ -1,6 +1,6 @@
 package io.github.alessandroscarlatti;
 
-import org.pushingpixels.substance.api.skin.SubstanceMistAquaLookAndFeel;
+//import org.pushingpixels.substance.api.skin.SubstanceMistAquaLookAndFeel;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -60,7 +60,7 @@ public class FileExplorerCustom extends JFrame {
             @Override
             public void run() {
                 try {
-                    UIManager.setLookAndFeel(new SubstanceMistAquaLookAndFeel());
+//                    UIManager.setLookAndFeel(new SubstanceMistAquaLookAndFeel());
                     FileExplorerCustom explorerUI = new FileExplorerCustom(Paths.get("C:\\Users\\pc\\IdeaProjects\\palette-util"));
                     explorerUI.setVisible(true);
                 } catch (Exception e) {
